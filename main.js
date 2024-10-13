@@ -35,7 +35,7 @@ function render() {
     mainHtml += `
     <div class='post'>
       <div class="profile-section">
-          <img class="avatar" src=${posts[post].avatar}" alt=${posts[post].name}>
+          <img class="avatar" src=${posts[post].avatar} alt=${posts[post].name}>
           <p class="bold">${posts[post].name}<span class="location">${posts[post].location}</span></p>
       </div>
       <img class="post-img" src=${posts[post].post} alt=${posts[post].name}>
